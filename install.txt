@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# linux mint 20.3 recommended
 sudo SU
 add-apt-repository -y ppa:nginx/stable
 apt-get update
