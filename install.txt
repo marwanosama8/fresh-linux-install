@@ -41,6 +41,12 @@ curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 node -v 'Check node version'
 
+# install snapcraft 
+sudo rm /etc/apt/preferences.d/nosnap.pref
+sudo apt update
+sudo apt install -y snapd
+snap version
+
 
 #fix chmod issuo
 sudo mount -o remount,rw /dev/sda3
